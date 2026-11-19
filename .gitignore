@@ -1,0 +1,45 @@
+# ==========================================
+# Environment Variables & Secrets (NEVER COMMIT)
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# AWS Credentials & Private Keys (NEVER COMMIT)
+# ==========================================
+.aws/
+*credentials*
+*_accessKeys.csv
+aws-exports.js
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ==========================================
+# Dependencies & Build / Deployment Artifacts
+# ==========================================
+node_modules/
+dist/
+build/
+*.zip
+
+# ==========================================
+# macOS & OS System Files
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+
+# ==========================================
+# IDE, Editor & Logs
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+npm-debug.log*
